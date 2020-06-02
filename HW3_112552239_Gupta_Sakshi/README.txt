@@ -1,3 +1,4 @@
+https://sites.google.com/a/stonybrook.edu/cse532-s20/homework/homework3-2
 
 					CSE 532 HW 3
 
