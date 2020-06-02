@@ -1,0 +1,1 @@
+load from "nyzip.csv" of del MESSAGES load.msg INSERT INTO CSE532.ZIPOP;
