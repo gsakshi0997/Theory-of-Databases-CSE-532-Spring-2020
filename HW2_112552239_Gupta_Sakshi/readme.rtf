@@ -1,0 +1,30 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1671\cocoasubrtf500
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\margl1440\margr1440\vieww10800\viewh8400\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 CSE 532- Homework 2\
+Sakshi Gupta-112552239\
+\
+In task 1, I added the jar db2jcc4.jar path into the CLASSPATH and so you can compile the program SalaryStdDev.java with \'93 javac SalaryStdDev.java\'94\
+And run it with \'93java -cp \'93my_classpath_for_the_jar:.\'94 SalaryStdDev databasename tablename username password\'94\
+I formatted the output upto two decimal places.\
+\
+In Task 2, I made the stored procedure using the command \'93db2 -td@ -f stddev.sql\'94 and called the procedure using \'93db2 "call stddev(?)\'94 \'94.\
+\
+Both the std dev values match and I also confirmed it with a query to the database which gives the answer in terms of e.\
+\
+Also my docker container was running on port 50001 so I changed it to 50000 just before submission as the professor mentioned on piazza.\
+\
+In my zip folder I have:\
+SalaryStdDev.java\
+SalaryStdDev.class\
+stddev.sql\
+Task1.png\
+Task2.png\
+Readme\
+db2jcc4.jar\
+\
+}
