@@ -1,0 +1,18 @@
+Task 2:
+Execution time for Task 2(Hadoop)=4620 milliseconds
+Execution time for Task 1(Spark)=9 milliseconds
+
+Task 3:
+Execution time for Task 3(Hadoop)= 3710 milliseconds
+Execution Time for Task2(Spark) = 10 milliseconds
+
+According to the findings, Spark gives much faster when compared to Hadoop.
+For calculating the time, I used System.currentTimeMillis() in java and subtracted the start and end time between the function calls. In python I used time.time() in the same manner.
+
+Note: please execute the Hadoop programs as 
+hadoop jar Covid19_1.jar Covid19_1/Covid19_1 /cse532/input/covid19_full_data.csv true /cse532/output/
+hadoop jar Covid19_2.jar Covid19_2/Covid19_2 /cse532/input/covid19_full_data.csv 2020-01-01 2020-03-31 /cse532/output/
+hadoop jar Covid19_3.jar Covid19_3/Covid19_3 /cse532/input/covid19_full_data.csv <populations.csv> /cse532/output/
+
+
+I mentioned it explicitly as I have used a package structure to make my jar file and I hope that won't cause any problem.
