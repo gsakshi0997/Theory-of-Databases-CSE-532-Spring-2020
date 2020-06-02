@@ -1,3 +1,6 @@
+https://sites.google.com/a/stonybrook.edu/cse532-s20/homework/homework1-2
+
+
 CSE 532- Homework 1
 Sakshi Gupta-112552239
 
